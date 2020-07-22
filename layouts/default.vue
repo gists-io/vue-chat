@@ -6,11 +6,11 @@
     >
       <v-toolbar-title v-text="title" />
     </v-app-bar>
-    <v-content>
+    <v-main>
       <v-container class="fill-height" >
         <nuxt />
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 

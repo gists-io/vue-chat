@@ -19,7 +19,7 @@
     <v-divider />
     <v-card-actions>
       <v-text-field class="mx-2 mx-md-3" color="yellow accent-2" v-model="newMessage" v-on:keyup.enter="sendMessage"/>
-      <v-btn @click="sendMessage" rounded outlined color="yellow accent-2" class="px-3 mx-2 mx-md-3" v-text="btnText" />
+      <v-btn @click="sendMessage" rounded outlined color="yellow accent-2" class="px-3 mx-2 mx-md-3">Send it!</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -29,7 +29,6 @@ export default {
   data () {
     return {
       newMessage: '',
-      btnText: 'Send it',
       title: 'Gists.io Echo Chat Box',
       messages: [
         {
